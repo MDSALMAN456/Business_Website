@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "name": "Shubham Sahoo",
+      "mobile": "1234567890",
+      "email": "Shubham.sahoo456@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "Amit Kumar",
+      "mobile": "9777729450",
+      "email": "hunterkingsman.prime@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "Md Salman",
+      "mobile": "9556903427",
+      "email": "mds100398@gmail.com",
+      "id": 5
+    },
+    {
+      "name": "Sohail Amjad",
+      "mobile": "7504294159",
+      "email": "sohailamjad20mar1998@gmail.com",
+      "id": 6
+    },
+    {
+      "name": "Kajal Mahapatra",
+      "mobile": "6371984790",
+      "email": "kajalm353@gmail.com",
+      "id": 7
+    },
+    {
+      "name": "Anisha Kumari",
+      "mobile": "9876543210",
+      "email": "ansh123@gmail.com",
+      "id": 8
+    }
+  ]
+}

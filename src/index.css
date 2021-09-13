@@ -1,13 +1,84 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
 }
+ul{
+  display: flex;
+  text-align:left;
+  margin-left: auto;
+  
+}
+li{
+  padding: 15px;
+  cursor: pointer;
+  
+}
+.navbar{
+  background-color:#fff !important;
+}
+.navbar-Tag{
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+}
+.navbar-Tag:hover{
+  color: #3498db;
+}
+.menu_active{
+  font-weight: bold;
+  border-bottom:1px solid #565387;
+}
+.header{
+  margin-top: 60px;
+}
+.btn-started{
+  padding: 5px 30px;
+  border-radius: 30px;
+  border: 1px solid #3498db;
+  text-decoration: none;
+  transition: 0.5s;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+}
+.btn-started:hover{
+  background-color: #3498db;
+  color: #fff;
+}
+strong{
+  color: #3498db;
+}
+.Img{
+  height: 60%;
+  margin-top: 25px;
+  margin-left: 50px;
+}
+.form-group{
+  margin-bottom: 10px;
+}
+.login_page{
+  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+  height: 87vh;
+  
+
+}
+.login_welcome{
+  background-image: linear-gradient(to right top, #6bd1d1, #46cae1, #2fc0f1, #49b3fb, #76a2fb, #5fa7fe, #41acff, #00b1ff, #00caff, #00dfee, #00f0c4, #5ffb8e);
+   height: 70vh;
+   padding-top: 50px;
+   padding-left:70px;
+}.login_main{
+  background-color: #5FFB8E;
+  height: 70vh;
+
+}
+.search_add{
+  float: right;
+}
+.search_input{
+  width: 230px;
+  padding: 5px;
+  border-radius: 5px;
+  border:1px solid black;
+  outline: none;
 }
